@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class DirectoryDemacifier {
-	private static String applicationVersion = "V1.0.1";
+	private static String applicationVersion = "v1.0.1";
 	
 	public static void main(String[] args) {
 		if(args.length == 0){
