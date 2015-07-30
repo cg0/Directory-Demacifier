@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class DirectoryDemacifier {
-	private static String applicationVersion = "v1.0.1";
+	private static String applicationVersion = "v1.0.2";
 	
 	public static void main(String[] args) {
 		if(args.length == 0){
@@ -27,7 +27,7 @@ public class DirectoryDemacifier {
 				System.err.println("PATH must be directory");
 			}
 			
-			System.out.println(String.format("Thanks for using DirectoryRemacifier V%s by Connor Graham (thecg.me)", applicationVersion));
+			System.out.println(String.format("Thanks for using DirectoryDemacifier V%s by Connor Graham (thecg.me)", applicationVersion));
 		}else{
 			System.err.println("PATH must exist");
 		}
